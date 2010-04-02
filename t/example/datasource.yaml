@@ -1,0 +1,19 @@
+---
+common:
+  datasource:
+    - dbi:mysql:dbname
+    - user
+    - pass
+  
+develop:
+  datasource:
+    - dbi:mysql:proj
+    - dev_user
+    - dev_pass
+  
+product:
+  datasource:
+    - dbi:mysql:proj
+    - proj
+    - pass_xxx
+  
